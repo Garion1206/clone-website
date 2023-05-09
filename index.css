@@ -7,4 +7,11 @@ ul li{
   font: inherit;
   font-size: 100%;
 }
+.titleFEATURED{
+  /* margin-top: 52px; */
+  border-top-color: #b3b3b3;
+}
 
+.Blank{
+  font-size: 100%;
+}
