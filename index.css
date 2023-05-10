@@ -7,11 +7,40 @@ ul li{
   font: inherit;
   font-size: 100%;
 }
-.titleFEATURED{
-  /* margin-top: 52px; */
-  border-top-color: #b3b3b3;
+
+
+
+
+.FEATURED{
+  position: relative;
+  margin-top: 60px;
+  margin-bottom: 40px;
+
 }
 
-.Blankrow{
-  font-size: 100%;
+.title-1{
+  /* margin-top: 52px; */
+  /* border-top-color: #b3b3b3; */
+  /* float: left; */
+  font-size: 20px;
 }
+
+
+
+.title-2{
+  float: right;
+  font-family: "Ideal Sans A","Ideal Sans B",Helvetica,Arial,sans-serif;
+  color: #7e746d;;
+  font-size: 16px;
+}
+
+.content{
+  position: relative;
+}
+
+.picture-1{
+  width:100%;
+  height: auto;
+  
+}
+
