@@ -36,6 +36,28 @@ ul li{
 
 .content{
   position: relative;
+  /* display: table-row; */
+  /* text-align: center;   */
+
+}
+
+.big-image{
+  position: absolute; 
+  left: 0;
+  top: 0;
+  width: 600px;
+  height: 377px;
+}
+
+.small-image-1{
+  /* position: relative; */
+}
+
+
+.image{
+  display: block;
+  float: right;
+  margin: 0 10px 10px 0;
 }
 
 .picture-1{

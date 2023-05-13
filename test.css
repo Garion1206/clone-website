@@ -1,0 +1,17 @@
+.image-container {
+position: relative;
+text-align: center;
+}
+
+.big-image {
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.small-image {
+
+top: 0;
+right: 0;
+/* display: inline-block; */
+}
