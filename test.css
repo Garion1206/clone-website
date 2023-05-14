@@ -1,17 +1,35 @@
-.image-container {
-position: relative;
-text-align: center;
+
+
+
+
+.h{
+	margin-top:1300px;
+	margin-right: 30px;
+	display: inline-block;
+  vertical-align: bottom;
+	display: flex;
+	margin-left: 30px;
 }
-
-.big-image {
-position: absolute;
-top: 0;
-left: 0;
+.hh img{
+	height: 100px;
+	width: 100px;
 }
+.hh{
+margin-left: 200px;
+margin-top: -10px;
 
-.small-image {
-
-top: 0;
-right: 0;
-/* display: inline-block; */
+}
+.hhh{
+	margin-left: 20px;
+	margin-top: -10px;
+}
+.hhhh{
+	display: inline-block;
+	margin-left: -83px;
+	margin-top: 30px;
+}
+.hhhhh{
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 30px;
 }
