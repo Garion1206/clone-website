@@ -35,37 +35,19 @@ ul li{
 }
 
 .content{
+  
+}
+.right{
   position: relative;
-  /* display: table-row; */
-  /* text-align: center;   */
-
+  
 }
-
-.big-image{
-  position: absolute; 
-  left: 0;
-  top: 0;
-  width: 600px;
-  height: 377px;
-}
-
-
-
-.image{
-  display: block;
-  float: right;
-  margin: 0 10px 10px 0;
-}
-
 .picture-1{
-  width:100%;
-  height: auto;
+  width:50%;
+  height: 50%;
   
 }
 
-.footer{
-  display: block;
-}
+
 
 /* .big-image{
   margin-top:1300px;
