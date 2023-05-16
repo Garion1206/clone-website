@@ -72,3 +72,20 @@
 .picture-5{
   width: 100%;
 }
+
+<span class="left">
+<a href="https://www.artic.edu/articles/1018/statuette-of-venus">
+    <img src="images/FEATURED 1.jpeg" alt="Statuette of Venus" class="picture-1">
+  <span class="word-1">
+    <span>
+      New Acquisition
+    </span>
+    <span>
+      Statuette of Venus
+    </span>
+    <span>
+      This superb figure of&nbsp;the goddess&nbsp;Venus—a domestic object of particular importance<!-- <br> -->to women&nbsp;in the ancient Roman world—expands the types of stories we can tell in the galleries.
+    </span>
+  </span>
+</a>
+</span><!--left-->
