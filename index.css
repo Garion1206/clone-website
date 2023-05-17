@@ -39,6 +39,7 @@ ul li{
 .content{
   display: flex;
   flex-flow: row wrap;
+  border-top: solid;
 }
 
 .left{
@@ -48,7 +49,10 @@ ul li{
   /* width: 43vw; */
   width: 570px;
   min-width: 250px;
-  margin: 20px;
+  /* margin: 20px; */
+  border-color: #7e746d;
+  border-right: solid;
+  padding: 40px;
 }
 
 .ul-c-1{
@@ -72,7 +76,24 @@ ul li{
 ul{
   display: inline;
 }
-
+.image-1{
+  padding: 40px;
+  border: solid;
+}
+.image-2{
+  padding: 40px;
+  border-left: solid;
+  border-right: solid;
+}
+.image-3{
+  padding: 40px;
+  border: solid;
+}
+.image-4{
+  padding: 40px;
+  border-left: solid;
+  border-right: solid;
+}
 .picture-1{
   width: 100%;
 }
