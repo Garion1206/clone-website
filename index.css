@@ -169,26 +169,33 @@ ul{
 
 .background{
   background-color: #F8F8F8;
+  width: 100%;
+  height: 600px;
+}
+.e-left{
+  float: left;
 }
 .e-title{
-  margin-top: 54px;
   display: inline;
+  color: #1a1a1a;
+  font-family: Sabon,Times New Roman,Times,Georgia,serif;
+  margin-top: 24px;
 }
 .e-input{
-  display: inline;
+  /* display: inline; */
 }
 .e-right{
-  margin-left: 50px;
+  /* margin-left: 50px;
   margin-right: 50px;
   padding-top: 20px;
-  padding-bottom: 16px;
+  padding-bottom: 16px; */
 }
 .email{
-  margin-left: 20px;
+  /* margin-left: 20px;
   border-width: 0 0 1px 0;  
   background: #F8F8F8;
   padding-right: 15px;
-  padding-bottom: 3px;
+  padding-bottom: 3px; */
 }
 
 
