@@ -36,12 +36,20 @@ ul li{
   text-decoration: underline;
 }
 
-
+ul + ul::before{
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  left: -1px;
+  border: 1px solid black;
+}
 
 .content{
   display: flex;
   flex-flow: row wrap;
-  border-top: solid;
+  border-top: solid; 
   padding-top: 32px;
   margin: 50px;
 }
@@ -170,32 +178,55 @@ ul{
 .background{
   background-color: #F8F8F8;
   width: 100%;
-  height: 600px;
+  height: 140px;
 }
 .e-left{
   float: left;
+  margin-top: 45px;
+  margin-left: 50px;
 }
 .e-title{
   display: inline;
   color: #1a1a1a;
   font-family: Sabon,Times New Roman,Times,Georgia,serif;
-  margin-top: 24px;
 }
 .e-input{
-  /* display: inline; */
+  float: right;
 }
 .e-right{
-  /* margin-left: 50px;
-  margin-right: 50px;
-  padding-top: 20px;
+  margin-left: 50px;
+  margin-right: 5px;
+  /* padding-top: 20px;
   padding-bottom: 16px; */
+  font-size: 18px;
+  margin-top: 45px;
+
+}
+.ea{
+  float: left;  
+  color: #767676;
 }
 .email{
-  /* margin-left: 20px;
+  margin-left: 20px;
   border-width: 0 0 1px 0;  
+  border-color: #767676;
   background: #F8F8F8;
   padding-right: 15px;
-  padding-bottom: 3px; */
+  padding-bottom: 3px;
+  width: 450px;
+  padding-bottom: 13px;
+
+}
+.button{
+  background: #F8F8F8;
+  border: none;
+  color: red;
+  position: relative;
+  right: 85px;
+  font-size: 17px;
 }
 
+input[type="email"]::placeholder{
+  font-size: 16px;
+}
 
