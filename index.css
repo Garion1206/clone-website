@@ -36,20 +36,19 @@ ul li{
   text-decoration: underline;
 }
 
-ul + ul::before{
+.content::before{
   content: "";
-  display: block;
-  width: 1px;
-  height: 100%;
-  position: absolute;
-  left: -1px;
-  border: 1px solid black;
+  border-bottom: solid 1px #e6e6e6;
+  margin: 0 auto;
+  width: 90.625vw;
+  height: 1px;
+  background-color: #e6e6e6;
 }
 
 .content{
   display: flex;
   flex-flow: row wrap;
-  border-top: solid; 
+  /* border-top: solid;  */
   padding-top: 32px;
   margin: 50px;
 }
