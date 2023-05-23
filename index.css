@@ -40,14 +40,6 @@ ul li{
 .title-2:hover{
   text-decoration: underline;
 }
-/* .Blank-row{
-    display: block;
-    height: 0;
-    margin: 28px 0 -1px;
-    border: 0;
-    border-bottom: 1px solid #e6e6e6;
-} */
-
 
 .content{
   display: flex;
@@ -75,19 +67,7 @@ ul li{
   bottom: 0;
   border-right: 1px solid #e6e6e6;
 }
-/* .image-1{
-  position: relative;
-  padding-top: 0px;
-}
-.image-1::before{
-  content: "";
-  position: absolute;
-  top: 0px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border-top: 1px solid #e6e6e6;
-} */
+
 .ul-c-1{
   display: flex;
   flex-flow: row wrap;
@@ -234,8 +214,6 @@ ul{
 .e-right{
   margin-left: 50px;
   margin-right: 5px;
-  /* padding-top: 20px;
-  padding-bottom: 16px; */
   font-size: 18px;
   margin-top: 45px;
 
