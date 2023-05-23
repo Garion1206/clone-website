@@ -35,21 +35,33 @@ ul li{
 .title-2:hover{
   text-decoration: underline;
 }
-
-.content::before{
+.Blank-row{
+    display: block;
+    height: 0;
+    margin: 28px 0 -1px;
+    border: 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+/* .content::before{
   content: "";
-  border-bottom: solid 1px #e6e6e6;
-  margin: 0 auto;
-  width: 90.625vw;
-  height: 1px;
+  border-bottom:  solid 1px #e6e6e6;
+  width: 88vw;
+  height: 3px;
+  position: relative;
+  top: -30px;
+} */
+.ul-c-1::before{
+  content: "";
+  position: absolute;
+  left: -1.5625vw;
+  top: 0;
+  bottom: 0;
+  width: 1px;
   background-color: #e6e6e6;
 }
-
 .content{
   display: flex;
   flex-flow: row wrap;
-  /* border-top: solid;  */
-  padding-top: 32px;
   margin: 50px;
 }
 
@@ -66,6 +78,7 @@ ul li{
   /* padding-left: 40px;
   padding-right: 40px; */
   /* margin-top: 18px; */
+  padding-right: 10px;
 
 }
 
