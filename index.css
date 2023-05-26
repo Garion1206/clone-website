@@ -19,10 +19,11 @@ ul li{
 .FEATURED::before{
   content: "";
   position: absolute;
-  top: 0;
+  top: 83px;
   left: 0;
   right: 0;
   bottom: 0;
+  height: 0px;
   border-bottom: 1px solid #e6e6e6;
 }
 .title-1{
@@ -58,40 +59,63 @@ ul li{
   padding-right: 20px;
   margin-top: 40px;
 }
+.picture-1:hover,.picture-2:hover,.picture-3:hover,.picture-4:hover,.picture-5:hover{
+  filter: brightness(110%);
+}
+.w-a-2:hover,.w-b-2:hover,.w-c-2:hover,.w-d-2:hover,.w-e-2:hover{
+  color: #e6e6e6;
+}
 .left::before{
   content: "";
   position: absolute;
   top: -40px;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  left: 100%;
+  height: 100%;
   border-right: 1px solid #e6e6e6;
 }
-
+@media screen and (max-width:1083px) {
+  .left::before{
+    display: none;
+  }
+}
 .ul-c-1{
   display: flex;
   flex-flow: row wrap;
-  /* width: 20vw; */
   width: 23%;
   min-width: 250px;
   margin-top: 20px;
   margin-bottom: 0px;
   margin-left: 20px;
   padding-left: 0px;
-  position: relative;
   padding-right: 20px;
   padding-top: 40px;
   position: relative;
   top: -20px;
+  display: inline;
+  list-style: none;
 }
 .ul-c-1::before{
   content: "";
   position: absolute;
   top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  left: 100%;
+  height: 100%;
   border-right: 1px solid #e6e6e6;
+}
+@media screen and (max-width:1800px){
+  .ul-c-1::before{
+    display: none;
+  }
+}
+@media screen and (min-width:700px){
+  .ul-c-1::before{
+    display: inline-block;
+  }
+}
+@media screen and (max-width:1200px){
+  .image-1.image-2,.image-3,.image-4{
+    display: inline;
+  }
 }
 .ul-c-2{
   display: flex;
@@ -106,16 +130,16 @@ ul li{
   padding-top: 40px;
   position: relative;
   top: -20px;
-}
-
-ul{
   display: inline;
   list-style: none;
 }
+
+
 .image-2,.image-4{
   border-top: 1px solid #e6e6e6;
   padding-top: 20px;
 }
+
 
 .no-underline{
   text-decoration: none;
@@ -124,7 +148,9 @@ ul{
 .word-1{
   text-align: center;
 }
-
+.word-2,.word-3,.word-4,.word-5{
+  padding-left: 0;
+}
 .w-a-1,.w-b-1,.w-c-1,.w-d-1,.w-e-1{
   color: #7e746d;
   font-style: normal;
@@ -139,10 +165,10 @@ ul{
   color: #7C7C7C;
 }
 .w-b-1,.w-c-1,.w-d-1,.w-e-1{
-  margin-top: -5px;
+  margin-top: 10px;
 }
 .w-b-2,.w-c-2,.w-d-2,.w-e-2{
-  margin-top: 12px;
+  margin-top: 16px;
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
@@ -174,7 +200,6 @@ ul{
 }
 
 .picture-1{
-  max-width: 100%;
   width: 100%;
 }
 
