@@ -15,6 +15,7 @@ ul li{
   position: relative;
   margin: 60px 50px 0px 50px;
   padding-bottom: 60px;
+  font-family: "Ideal Sans A","Ideal Sans B",Helvetica,Arial,sans-serif;
 }
 .FEATURED::before{
   content: "";
@@ -27,7 +28,8 @@ ul li{
   border-bottom: 1px solid #e6e6e6;
 }
 .title-1{
-  font-size: 20px;
+  font-size: 25px;
+  font-family: "Ideal Sans A","Ideal Sans B",Helvetica,Arial,sans-serif;
 }
 
 
@@ -59,11 +61,12 @@ ul li{
   padding-right: 20px;
   margin-top: 40px;
 }
-.picture-1:hover,.picture-2:hover,.picture-3:hover,.picture-4:hover,.picture-5:hover{
-  filter: brightness(110%);
+
+.left:hover .picture-1{
+  opacity: 0.9;
 }
-.w-a-2:hover,.w-b-2:hover,.w-c-2:hover,.w-d-2:hover,.w-e-2:hover{
-  color: #e6e6e6;
+.left:hover .w-a-2{
+  color: #7C7C7C;
 }
 .left::before{
   content: "";
@@ -102,19 +105,23 @@ ul li{
   height: 100%;
   border-right: 1px solid #e6e6e6;
 }
-@media screen and (max-width:1800px){
+.ul-c-1::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  height: 100%;
+  border-left: 1px solid #e6e6e6;
+}
+
+@media screen and (max-width:1450px){
   .ul-c-1::before{
     display: none;
   }
 }
-@media screen and (min-width:700px){
-  .ul-c-1::before{
-    display: inline-block;
-  }
-}
-@media screen and (max-width:1200px){
-  .image-1.image-2,.image-3,.image-4{
-    display: inline;
+@media screen and (min-width:1300px){
+  .ul-c-1::after{
+    display: none;
   }
 }
 .ul-c-2{
@@ -145,11 +152,42 @@ ul li{
   text-decoration: none;
 }
 
+.image-1:hover .picture-2{
+  opacity: 0.9;
+}
+.image-1:hover .w-b-2{
+  color: #7C7C7C;
+}
+
+.image-2:hover .picture-3{
+  opacity: 0.9;
+}
+.image-2:hover .w-c-2{
+  color: #7C7C7C;
+}
+
+.image-3:hover .picture-4{
+  opacity: 0.9;
+}
+.image-3:hover .w-d-2{
+  color: #7C7C7C;
+}
+
+.image-4:hover .picture-5{
+  opacity: 0.9;
+}
+.image-4:hover .w-e-2{
+  color: #7C7C7C;
+}
+
 .word-1{
   text-align: center;
 }
 .word-2,.word-3,.word-4,.word-5{
   padding-left: 0;
+}
+.word-1,.word-2,.word-3,.word-4,.word-5{
+  font-family: 'Ideal Sans A','Ideal Sans B',Helvetica,Arial,sans-serif;
 }
 .w-a-1,.w-b-1,.w-c-1,.w-d-1,.w-e-1{
   color: #7e746d;
@@ -162,7 +200,7 @@ ul li{
   color: #1A1A1A;
 }
 .w-a-3,.w-b-3,.w-c-3,.w-d-3,.w-e-3{
-  color: #7C7C7C;
+  color: #333;
 }
 .w-b-1,.w-c-1,.w-d-1,.w-e-1{
   margin-top: 10px;
@@ -199,29 +237,15 @@ ul li{
   margin-top: 40px;
 }
 
-.picture-1{
+.picture-1,.picture-2,.picture-3,.picture-4,.picture-5{
   width: 100%;
 }
 
-.picture-2{
-  width: 100%;
-}
-.picture-3{
-  width: 100%;
-
-}
-.picture-4{
-  width: 100%;
-
-}
-.picture-5{
-  width: 100%;
-}
 
 .background{
   background-color: #F8F8F8;
   width: 100%;
-  height: 140px;
+  height: 180px;
 }
 .e-left{
   float: left;
@@ -261,10 +285,11 @@ ul li{
 .button{
   background: #F8F8F8;
   border: none;
-  color: red;
+  color: #b50938;
   position: relative;
   right: 85px;
   font-size: 17px;
+  font-family: "Ideal Sans A","Ideal Sans B",Helvetica,Arial,sans-serif;
 }
 
 input[type="email"]::placeholder{
