@@ -280,7 +280,9 @@ ul li{
   padding-bottom: 3px;
   width: 450px;
   padding-bottom: 13px;
-
+}
+.email:focus{
+  outline: none;
 }
 .button{
   background: #F8F8F8;
